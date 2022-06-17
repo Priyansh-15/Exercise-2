@@ -1,0 +1,41 @@
+  458  git init
+  459  git status
+  460  git add .
+  461  git commit -m "Update 1.0.0"
+  462  git tag 1.0.0 -a -m "created 2 files"
+  463  git add .
+  464  git commit -m "Update 1.0.1"
+  465  git tag 1.0.1 -a -m "updated files"
+  466  git add .
+  467  git commit -m "Update 1.1.0"
+  468  git tag 1.1.0 -a -m "add file 3"
+  469  git log
+  470  git tag
+  471  git tag --help
+  472  git tag -m
+  473  git tag -n
+  474  git co 1.0.1
+  475  git add .
+  476  git commit -m "Update 1.0.2"
+  477  git tag 1.0.2 -a -m "change file"
+  478  git co 1.1.0
+  479  git add .
+  480  git commit -m "Update 1.1.1"
+  481  git tag 1.1.1 -a -m "change file in 1.1.0"
+  482  git tag
+  483  gitk
+  484  gitk --all
+  485  git remote add origin https://github.com/Priyansh-15/Exercise-2.git
+  486  git branch -M main
+  487  git push -u origin main
+  488  git co master
+  489  git remote add origin https://github.com/Priyansh-15/Exercise-2.git
+  490  git branch -M main
+  491  git push -u origin main
+  492  gitk
+  493  gitk --all
+  494  git add .
+  495  git commit
+  496  git satatus
+  497  git status
+  498  git push
